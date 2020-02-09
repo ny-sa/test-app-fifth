@@ -1,0 +1,7 @@
+<%- include('partials/header') -%>
+  <% ePosts.forEach((e) => { %>
+    <h1><%= e.title %></h1>
+    <p><%= e.post %></p>
+  <% }); %>
+
+<%- include('partials/footer') -%>
