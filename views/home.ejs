@@ -5,7 +5,7 @@
     <h1><%= e.title %></h1>
     <p>
       <%= e.post.slice(0, 51) + ' ... ' %>
-      <a href='/posts/<%=e.title%>'>Read More</a>
+      <a href='/posts/<%= e._id %>'>Read More</a>
     </p>
   <% }); %>
 
